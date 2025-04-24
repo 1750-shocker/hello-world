@@ -1,4 +1,4 @@
 package com.wzh.myapplication
 
-class Hell {
+class Hell() {
 }
