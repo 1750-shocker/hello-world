@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+    </style>
+    <!-- 蓝色调主题 -->
+    <style name="AppTheme.Blue" parent="BaseTheme">
+        <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <!-- 黄色调主题 -->
+    <style name="AppTheme.Yellow" parent="BaseTheme">
+        <item name="colorPrimary">@color/yellow_500</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
+    <!-- 通用按钮样式，引用主题属性 -->
+    <style name="MyButtonStyle">
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+</resources>

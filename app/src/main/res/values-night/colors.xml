@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 夜间模式颜色 -->
+    <color name="blue_500">#1976D2</color>
+    <color name="yellow_500">#FBC02D</color>
+    <!-- 明暗模式适配 -->
+    <color name="primary_color">#1976D2</color>  <!-- 深色模式下的蓝色 -->
+    <color name="on_primary">#000000</color>    <!-- 深色模式下的文字颜色 -->
+</resources>
