@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     private val KEY_THEME: String = "current_theme"
     override fun onCreate(savedInstanceState: Bundle?) {3
         super.onCreate(savedInstanceState)
-
+        //here is feature！
         val currentTheme =
             getSharedPreferences(PREFS_NAME, MODE_PRIVATE).getInt(KEY_THEME, R.style.AppTheme_Blue)
         setTheme(currentTheme)
