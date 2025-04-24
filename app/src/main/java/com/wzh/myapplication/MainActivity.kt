@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
 //    val hell =  Hell()
     private val PREFS_NAME: String = "ThemePrefs"
     private val KEY_THEME: String = "current_theme"
-    override fun onCreate(savedInstanceState: Bundle?) {3
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         val currentTheme =
