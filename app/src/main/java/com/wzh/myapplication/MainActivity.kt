@@ -8,10 +8,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
-    val hell =  Hell()
+//    val hell =  Hell()
     private val PREFS_NAME: String = "ThemePrefs"
     private val KEY_THEME: String = "current_theme"
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {3
         super.onCreate(savedInstanceState)
 
         val currentTheme =
@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         setTheme(currentTheme)
 
         setContentView(R.layout.activity_main)
+        //click
         enableEdgeToEdge()
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
